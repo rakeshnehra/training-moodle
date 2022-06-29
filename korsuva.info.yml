@@ -1,0 +1,20 @@
+name: Korsuva
+type: theme
+description: 'Korsuva website theme'
+package: Core
+version: 1.0.0
+core_version_requirement: ^8 || ^9
+base theme: bartik
+libraries:
+ - korsuva/global-css
+ - korsuva/global-js
+regions:
+ us_header: 'US Header'
+ header: 'Header'
+ content: 'Content'
+ webform: 'Webform'
+ footer_top: 'Footer Top'
+ footer_bottom: 'Footer Bottom'
+ us_footer_top: 'US Footer Top'
+ us_footer_bottom: 'US Footer Bottom'
+ disabled: 'disabled'
